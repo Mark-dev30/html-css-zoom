@@ -112,7 +112,7 @@ footer{
 }
 
 .clm_footer50{
-    width: 68% ;
+    width: 70% ;
 }
 
 .clm_footer25, .clm_footer50{
@@ -122,15 +122,32 @@ footer{
 
 .content_footer li{
     display: inline-block;
-    font-size: 15px;
+    font-size: 18px;
     margin: 10px;
     text-align: center;
+}
+
+.content_footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .content_footer a{
-    text-decoration:underline;
+    text-decoration:none;
+    color: white;
 }
+
+.content_footer p{
+    margin-top: 5px;
+}
+
+#a_green{
+    color: green;
+}
+
+
 
 .clm_footer25 span{
     color: red;
