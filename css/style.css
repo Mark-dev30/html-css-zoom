@@ -38,7 +38,8 @@ header{
 main{
     width: 100vw;
     height: calc(100vh - 100px);
-    overflow-y: scroll;
+    overflow-y: auto;
+    overflow-x: auto;
 }
 
 .container_main{
@@ -49,6 +50,8 @@ main{
 .row_main{
     width: 100%;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .clm_main{
@@ -90,9 +93,10 @@ main{
 
 footer{
     height: 50px;
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
+    
 }
 .container_footer{
     height: 100%;
